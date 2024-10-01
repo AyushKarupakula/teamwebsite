@@ -24,8 +24,8 @@ function TeamPresentation() {
     },
     {
       name: "Suyash",
-      role: "UX/UI Designer & Quality Assurance Specialist",
-      contributions: "Crafted the user experience design, created wireframes, and conducted thorough testing to ensure product quality and user satisfaction."
+      role: "Quality Assurance Specialist",
+      contributions: "Conducted thorough testing to ensure product quality and user satisfaction."
     }
   ];
 

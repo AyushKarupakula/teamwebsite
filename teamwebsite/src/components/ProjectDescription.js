@@ -23,7 +23,7 @@ function ProjectDescription() {
       <ul>
         <li>Frontend: React.js for a dynamic and responsive user interface</li>
         <li>Backend: Django framework for a powerful and scalable server-side architecture</li>
-        <li>Database: PostgreSQL for efficient data management</li>
+        <li>Database: SQLite for efficient data management</li>
         <li>API Integration: Google Maps API for location services</li>
       </ul>
       <p>
