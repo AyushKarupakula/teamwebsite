@@ -1,18 +1,22 @@
 import React from 'react';
 
-function VideoDemo() {
+function VideoDemo({ videoId }) {
+  // Updated function to use the specific Google Drive URL
+  const getGoogleDriveEmbedUrl = () => {
+    return "https://drive.google.com/file/d/1o0aQuKTr06qESIHc65pxn_Rf8RqETO_m/preview";
+  };
+
   return (
     <section className="video-demo">
       <h2>See Atlanta Food Finder in Action</h2>
       <div className="video-container">
-        {/* Replace with actual video embed code */}
         <iframe 
           width="560" 
           height="315" 
-          src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+          src={getGoogleDriveEmbedUrl()}
           title="Atlanta Food Finder Demo" 
           frameBorder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allow="autoplay"
           allowFullScreen>
         </iframe>
       </div>
